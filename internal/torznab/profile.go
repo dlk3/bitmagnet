@@ -15,7 +15,7 @@ var ProfileDefault = Profile{
 	ID:           "default",
 	Title:        "bitmagnet",
 	DefaultLimit: 100,
-	MaxLimit:     100,
+	MaxLimit:     3000,
 }
 
 func (p Profile) MergeDefaults() Profile {
